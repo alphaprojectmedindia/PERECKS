@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-nhs-background text-nhs-text font-sans antialiased;
+    font-size: 16px;
+  }
+}
+
+/* Theme Classes */
+.theme-high_contrast {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  color: #FFFF00;
+}
+
+.theme-dark {
+  background-color: #1A202C;
+  color: #F7FAFC;
+}
+
+.theme-dyslexia {
+  font-family: 'Atkinson Hyperlegible', Arial, sans-serif !important;
+  letter-spacing: 0.03em;
+}
+
+/* Font scale classes */
+.font-scale-100 { font-size: 16px; }
+.font-scale-125 { font-size: 20px; }
+.font-scale-150 { font-size: 24px; }
+.font-scale-200 { font-size: 32px; }
+
+/* Custom touch target */
+button, select, input, a {
+  min-height: 44px;
+}

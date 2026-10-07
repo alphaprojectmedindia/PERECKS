@@ -1,0 +1,42 @@
+[
+  {
+    "term": "eGFR",
+    "plainDefinition": "Estimated Glomerular Filtration Rate: A number calculated from a blood test that shows how well your kidney filters are cleaning waste, scaled for an average adult body size (100 is top health, around 60-90 is mild, under 60 shows CKD).",
+    "pronunciation": "ee-gee-eff-are"
+  },
+  {
+    "term": "Creatinine",
+    "plainDefinition": "A natural waste product produced by your muscles during everyday movement. Healthy kidneys filter it out into urine. If kidneys filter slower, creatinine levels in the blood rise.",
+    "pronunciation": "kree-AT-i-neen"
+  },
+  {
+    "term": "ACR",
+    "plainDefinition": "Albumin-to-Creatinine Ratio: A simple urine test that checks for tiny amounts of a protein called albumin in your urine. Healthy kidneys keep protein in the blood; leaks show kidney strain.",
+    "pronunciation": "ay-see-are"
+  },
+  {
+    "term": "Nephron",
+    "plainDefinition": "The microscopic filtering unit inside your kidney. Each kidney has around one million nephrons quietly cleaning your blood.",
+    "pronunciation": "NEF-ron"
+  },
+  {
+    "term": "Systolic",
+    "plainDefinition": "The top number on a blood pressure reading. It measures the pressure in your blood vessels when your heart beats and pumps blood.",
+    "pronunciation": "sis-TOL-ik"
+  },
+  {
+    "term": "Diastolic",
+    "plainDefinition": "The bottom number on a blood pressure reading. It measures the resting pressure in your blood vessels between heartbeats.",
+    "pronunciation": "die-a-STOL-ik"
+  },
+  {
+    "term": "NSAID",
+    "plainDefinition": "Non-Steroidal Anti-Inflammatory Drug. A family of painkillers (such as ibuprofen and naproxen) that can reduce blood flow to kidney filters.",
+    "pronunciation": "en-said"
+  },
+  {
+    "term": "Dietitian",
+    "plainDefinition": "A qualified healthcare professional who translates nutritional science into practical, safe eating guidance for medical conditions.",
+    "pronunciation": "die-eh-TISH-un"
+  }
+]

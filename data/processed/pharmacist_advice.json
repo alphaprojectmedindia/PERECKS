@@ -1,0 +1,62 @@
+[
+  {
+    "id": "med-nsaids",
+    "category": "Painkillers & Anti-inflammatories (NSAIDs)",
+    "examples": ["Ibuprofen (Nurofen)", "Naproxen", "Diclofenac (Voltarol)", "High-dose Aspirin"],
+    "plainExplanation": "NSAIDs reduce blood flow directly into the kidney filtering units (glomeruli). Even short courses or over-the-counter gels can cause acute kidney injury or worsen existing CKD.",
+    "actionToTake": "Avoid NSAIDs unless specifically prescribed by your kidney specialist. For mild pain, ask your pharmacist if paracetamol is suitable for you.",
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist) & E. Davies (Lead Renal Pharmacist)",
+    "reviewDate": "2026-08-15",
+    "status": "Approved"
+  },
+  {
+    "id": "med-sick-day",
+    "category": "Sick-Day Rules Medicines (Dehydration Risk)",
+    "examples": ["ACE inhibitors (Ramipril, Lisinopril)", "ARBs (Losartan, Candesartan)", "Diuretics (Furosemide, Bendroflumethiazide)", "SGLT2 inhibitors (Dapagliflozin, Empagliflozin)", "Metformin"],
+    "plainExplanation": "When you have severe vomiting, diarrhea, or a high fever, you lose fluid quickly. Taking these medicines while dehydrated can cause your blood pressure or kidney function to drop sharply.",
+    "actionToTake": "Ask your GP or kidney team about your personal 'Sick-Day Rules'. If you become unwell with vomiting or diarrhea, contact your team to check if you should pause them temporarily.",
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist)",
+    "reviewDate": "2026-08-15",
+    "status": "Approved"
+  },
+  {
+    "id": "med-salt-substitutes",
+    "category": "Potassium Supplements & 'Low-Sodium' Salt Substitutes",
+    "examples": ["LoSalt", "Saxons Lo-Salt", "Potassium chloride powders", "Effervescent potassium tablets"],
+    "plainExplanation": "Low-sodium salt alternatives replace sodium with high levels of potassium. When kidneys filter more slowly, excess potassium can build up in the blood (hyperkalaemia), which can affect heart rhythm.",
+    "actionToTake": "Do not use potassium-based salt substitutes without explicit approval from your renal dietitian or doctor. Flavour food with herbs, spices, lemon juice, or garlic instead.",
+    "reviewedBy": "E. Davies (Lead Renal Pharmacist) & S. Patel (Specialist Renal Dietitian)",
+    "reviewDate": "2026-08-20",
+    "status": "Approved"
+  },
+  {
+    "id": "med-herbal",
+    "category": "Herbal Remedies & High-Dose Dietary Supplements",
+    "examples": ["St John's Wort", "Creatine supplements", "Chinese herbal mixtures (Aristolochic acid)", "High-dose Vitamin C / Cranberry concentrated extracts"],
+    "plainExplanation": "Herbal remedies are not regulated as strictly as medicines and may contain heavy metals, potassium, or compounds that directly injure the kidneys or interact with kidney medications.",
+    "actionToTake": "Always bring a complete list of any herbal pills, powders, or supplements to your pharmacist or kidney clinic before starting them.",
+    "reviewedBy": "E. Davies (Lead Renal Pharmacist)",
+    "reviewDate": "2026-08-20",
+    "status": "Approved"
+  },
+  {
+    "id": "med-contrast",
+    "category": "Hospital Contrast Dyes (Iodinated / Gadolinium)",
+    "examples": ["CT scan iodine contrast", "Certain MRI contrast agents"],
+    "plainExplanation": "Some specialized hospital scans use dye injections to highlight blood vessels. In reduced kidney function, adequate hydration before and after the scan protects the kidneys.",
+    "actionToTake": "Always tell the imaging radiographer and doctor that you have kidney disease and have your latest eGFR reading available.",
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist)",
+    "reviewDate": "2026-08-15",
+    "status": "Approved"
+  },
+  {
+    "id": "med-glp1-sglt2",
+    "category": "GLP-1 Receptor Agonists & SGLT2 Inhibitors",
+    "examples": ["Semaglutide (Ozempic/Wegovy)", "Tirzepatide (Mounjaro)", "Dapagliflozin (Forxiga)", "Empagliflozin (Jardiance)"],
+    "plainExplanation": "These medications offer strong kidney and heart protection. However, GLP-1 medicines can cause nausea and reduced fluid intake, while SGLT2 inhibitors increase urine output. Staying hydrated is vital.",
+    "actionToTake": "Drink enough water throughout the day. If you develop persistent vomiting or cannot keep fluids down, contact your prescriber or pharmacist promptly.",
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist)",
+    "reviewDate": "2026-08-15",
+    "status": "Approved"
+  }
+]

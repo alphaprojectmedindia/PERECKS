@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sup-kidney-care-uk",
+    "name": "Kidney Care UK",
+    "type": "National Kidney Charity & Advocacy",
+    "description": "The UK's leading kidney patient support charity. Offers free counselling, patient grants, financial advice, advocacy, and peer support.",
+    "url": "https://www.kidneycareuk.org",
+    "phone": "01420 541 424",
+    "area": "United Kingdom",
+    "eligibility": "Anyone living with kidney disease, their family, or carers.",
+    "lastChecked": "2026-08-01",
+    "checkedBy": "PERCKS Research Team"
+  },
+  {
+    "id": "sup-kidney-research-uk",
+    "name": "Kidney Research UK",
+    "type": "Research & Patient Information",
+    "description": "Funding life-saving research into kidney health and providing evidence-based patient information booklets on early CKD, diet, and lifestyle.",
+    "url": "https://www.kidneyresearchuk.org",
+    "phone": "0300 303 1100",
+    "area": "United Kingdom",
+    "eligibility": "Open to all patients, researchers, and public.",
+    "lastChecked": "2026-08-01",
+    "checkedBy": "PERCKS Research Team"
+  },
+  {
+    "id": "sup-nhs-talking-therapies",
+    "name": "NHS Talking Therapies (IAPT)",
+    "type": "NHS Mental Health Service",
+    "description": "Free, confidential NHS psychological therapies for adults experiencing stress, anxiety, low mood, or managing emotional strain from long-term health conditions. Self-referral available without GP appointment.",
+    "url": "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/nhs-talking-therapies/",
+    "phone": "NHS 111",
+    "area": "England (NHS)",
+    "eligibility": "Aged 18+ registered with a GP in England.",
+    "lastChecked": "2026-08-01",
+    "checkedBy": "PERCKS Research Team"
+  },
+  {
+    "id": "sup-kidney-beam",
+    "name": "Kidney Beam (Physical Activity & Wellbeing)",
+    "type": "Online Exercise & Movement",
+    "description": "Clinically validated physical activity and emotional wellbeing platform designed specifically for people living with kidney disease. Free NHS-funded access across England.",
+    "url": "https://beamfeelgood.com/kidney-disease",
+    "phone": "Online Support",
+    "area": "United Kingdom",
+    "eligibility": "Anyone diagnosed with CKD stages 1-5, dialysis, or transplant.",
+    "lastChecked": "2026-08-01",
+    "checkedBy": "PERCKS Research Team"
+  },
+  {
+    "id": "sup-citizens-advice",
+    "name": "Citizens Advice",
+    "type": "Free Independent Advice",
+    "description": "Confidential, free advice on welfare benefits (PIP, Attendance Allowance), prescription charge exemptions, employment rights, and housing adaptations.",
+    "url": "https://www.citizensadvice.org.uk",
+    "phone": "0800 144 8848",
+    "area": "United Kingdom",
+    "eligibility": "Free and open to all UK residents.",
+    "lastChecked": "2026-08-01",
+    "checkedBy": "PERCKS Research Team"
+  },
+  {
+    "id": "sup-money-helper",
+    "name": "MoneyHelper (UK Government Service)",
+    "type": "Impartial Financial Guidance",
+    "description": "Free, impartial government-backed money and pensions guidance, including travel insurance for pre-existing conditions and utility assistance schemes.",
+    "url": "https://www.moneyhelper.org.uk",
+    "phone": "0800 138 7777",
+    "area": "United Kingdom",
+    "eligibility": "All UK residents.",
+    "lastChecked": "2026-08-01",
+    "checkedBy": "PERCKS Research Team"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "daily-quiz",
+    "title": "Daily Kidney Quiz",
+    "description": "3 quick, bite-sized questions to reinforce what you learned today.",
+    "icon": "HelpCircle",
+    "bct": ["4.1", "2.2"],
+    "points": 15,
+    "questions": [
+      {
+        "id": "dq-1",
+        "question": "What is the primary function of your kidneys?",
+        "options": ["Filtering waste and water from the blood", "Pumping blood to muscles", "Storing oxygen"],
+        "correctIndex": 0,
+        "explanation": "Kidneys clean your blood continuously and balance essential salts and water."
+      },
+      {
+        "id": "dq-2",
+        "question": "What is the recommended maximum daily salt intake for UK adults?",
+        "options": ["6 grams (about 1 level teaspoon)", "15 grams", "Zero salt entirely"],
+        "correctIndex": 0,
+        "explanation": "6 grams of salt (or 2,400mg sodium) is the NHS daily maximum."
+      },
+      {
+        "id": "dq-3",
+        "question": "Which common painkiller should generally be checked with your pharmacist if you have CKD?",
+        "options": ["Ibuprofen (NSAID)", "Paracetamol", "Water"],
+        "correctIndex": 0,
+        "explanation": "NSAIDs like ibuprofen can reduce blood flow into the kidney filters."
+      }
+    ]
+  },
+  {
+    "id": "salt-detective",
+    "title": "Salt Detective",
+    "description": "Compare two packaged foods and spot the lower-salt choice.",
+    "icon": "Search",
+    "bct": ["1.1", "4.1"],
+    "points": 20,
+    "scenarios": [
+      {
+        "id": "sd-1",
+        "title": "Lunchtime Soup Choice",
+        "itemA": { "name": "Canned Ready-Made Cream Soup", "saltG": 1.45, "rating": "Amber/Red" },
+        "itemB": { "name": "Homemade Fresh Vegetable Soup", "saltG": 0.25, "rating": "Green" },
+        "prompt": "Which soup is the kidney-friendly, lower-salt option?",
+        "correctItem": "itemB",
+        "tip": "Canned and instant soups often contain over 25% of your entire daily salt allowance in a single bowl."
+      },
+      {
+        "id": "sd-2",
+        "title": "Breakfast Choice",
+        "itemA": { "name": "Unsalted Porridge Oats with Blueberries", "saltG": 0.02, "rating": "Green" },
+        "itemB": { "name": "Smoked Bacon Sandwich with Brown Sauce", "saltG": 2.80, "rating": "Red" },
+        "prompt": "Which breakfast protects your blood pressure target best?",
+        "correctItem": "itemA",
+        "tip": "Smoked and cured meats are very high in sodium. Plain oats have virtually zero added salt."
+      }
+    ]
+  },
+  {
+    "id": "pill-check",
+    "title": "Pill Check",
+    "description": "Learn which over-the-counter medicines need a pharmacist check.",
+    "icon": "ShieldAlert",
+    "bct": ["5.1", "7.1"],
+    "points": 20,
+    "items": [
+      {
+        "medicine": "Ibuprofen (Nurofen / Advil)",
+        "needsCheck": true,
+        "reason": "NSAID painkillers can reduce blood flow into the kidneys and trigger acute kidney strain."
+      },
+      {
+        "medicine": "Paracetamol (at standard recommended dose)",
+        "needsCheck": false,
+        "reason": "Paracetamol is generally safe for kidneys when taken according to package instructions."
+      },
+      {
+        "medicine": "Lo-Salt / Potassium Salt Substitutes",
+        "needsCheck": true,
+        "reason": "These products replace sodium with high levels of potassium, which kidneys may struggle to clear."
+      },
+      {
+        "medicine": "Herbal Kidney Detox Tea",
+        "needsCheck": true,
+        "reason": "Unregulated herbal extracts can contain heavy metals or compounds that irritate kidney filters."
+      }
+    ]
+  },
+  {
+    "id": "sick-day-sort",
+    "title": "Sick-Day Rules Card Sort",
+    "description": "Drag medicines into 'Pause during severe vomiting/diarrhoea' or 'Usually continue'.",
+    "icon": "CheckSquare",
+    "bct": ["1.2", "4.1"],
+    "points": 20,
+    "cards": [
+      { "name": "Ramipril (ACE Inhibitor)", "category": "pause", "reason": "Blood pressure drops during dehydration; pausing prevents kidney strain." },
+      { "name": "Losartan (ARB)", "category": "pause", "reason": "Protective in health, but pause during severe dehydrating illness." },
+      { "name": "Furosemide (Water Pill / Diuretic)", "category": "pause", "reason": "Losing more fluid when already dehydrated causes acute injury." },
+      { "name": "Paracetamol (for fever)", "category": "continue", "reason": "Helps control high temperature without dropping renal blood flow." },
+      { "name": "Thyroxine (Thyroid tablet)", "category": "continue", "reason": "Standard hormone replacement that does not affect fluid balance." }
+    ]
+  },
+  {
+    "id": "plate-builder",
+    "title": "Eatwell Plate Builder",
+    "description": "Balance your virtual meal according to the NHS Eatwell Guide.",
+    "icon": "PieChart",
+    "bct": ["1.1", "2.2"],
+    "points": 15,
+    "targetProportions": {
+      "vegetablesAndFruit": 40,
+      "starchyCarbs": 35,
+      "proteinBeansFish": 15,
+      "dairyOrAlternatives": 8,
+      "healthyOils": 2
+    }
+  },
+  {
+    "id": "bp-hero",
+    "title": "Blood Pressure Hero",
+    "description": "Match blood pressure readings to their NICE guideline categories.",
+    "icon": "Activity",
+    "bct": ["2.2", "4.1"],
+    "points": 15,
+    "readings": [
+      { "systolic": 122, "diastolic": 78, "expectedBand": "Ideal / On Target", "note": "Great reading! Keeps filters calm." },
+      { "systolic": 142, "diastolic": 92, "expectedBand": "Stage 1 High", "note": "Worth discussing with your GP surgery." },
+      { "systolic": 185, "diastolic": 122, "expectedBand": "Urgent Evaluation (Stage 3)", "note": "Contact GP or 111 promptly." }
+    ]
+  },
+  {
+    "id": "lab-decoder",
+    "title": "Lab Results Decoder",
+    "description": "Understand what eGFR and urine ACR numbers really mean.",
+    "icon": "FileText",
+    "bct": ["4.1"],
+    "points": 15,
+    "pairs": [
+      { "term": "eGFR 60-89", "meaning": "Stage G2: Mild reduction; kidneys still doing a great job filtering." },
+      { "term": "eGFR 45-59", "meaning": "Stage G3a: Mild-moderate reduction; routine 6-monthly reviews recommended." },
+      { "term": "ACR < 3 mg/mmol", "meaning": "Stage A1: Normal protein; kidney filters are keeping protein sealed inside." },
+      { "term": "ACR 3-30 mg/mmol", "meaning": "Stage A2: Microalbuminuria; tiny protein leaks showing mild filter strain." }
+    ]
+  },
+  {
+    "id": "kidney-quest",
+    "title": "Kidney Quest: A Day in the Life",
+    "description": "Make healthy, realistic choices in a short interactive daily story.",
+    "icon": "Compass",
+    "bct": ["1.4", "4.1"],
+    "points": 25,
+    "steps": [
+      {
+        "prompt": "You wake up feeling a bit rushed before work. What is a kidney-friendly way to start the day?",
+        "choices": [
+          { "text": "A tall glass of water and a warm bowl of porridge with berries", "points": 10, "feedback": "Excellent! Hydrating and gentle on blood pressure with zero added salt." },
+          { "text": "Skip breakfast and grab two salty bacon rolls on the run", "points": 2, "feedback": "High in salt, which pulls blood pressure up throughout the morning." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "move-it",
+    "title": "Move-It: Gentle Activity",
+    "description": "Track a 10-minute walk or gentle stretch to build your activity streak.",
+    "icon": "Zap",
+    "bct": ["1.1", "2.3"],
+    "points": 10,
+    "suggestions": [
+      "10-minute brisk walk around the block or local park",
+      "Gentle seated stretching or yoga while watching TV",
+      "Taking the stairs instead of the lift"
+    ]
+  },
+  {
+    "id": "mind-garden",
+    "title": "Mind Garden (Grounding & Calm)",
+    "description": "2 minutes of box breathing to lower stress and relax vascular tension.",
+    "icon": "Heart",
+    "bct": ["3.2"],
+    "points": 10,
+    "phases": [
+      { "label": "Breathe In", "seconds": 4 },
+      { "label": "Hold", "seconds": 4 },
+      { "label": "Breathe Out", "seconds": 4 },
+      { "label": "Rest", "seconds": 4 }
+    ]
+  }
+]

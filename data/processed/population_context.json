@@ -1,0 +1,43 @@
+{
+  "description": "UK Regional and Area CKD, Diabetes and Hypertension Prevalence Indicators (OHID Fingertips & QOF 2024-2025)",
+  "nationalAverages": {
+    "englandCkdPrevalencePercentage": 4.1,
+    "englandDiabetesPrevalencePercentage": 7.5,
+    "englandHypertensionPrevalencePercentage": 14.4,
+    "source": "Quality and Outcomes Framework (QOF) / NHS England"
+  },
+  "regions": [
+    {
+      "region": "London",
+      "ckdPrevalencePct": 3.2,
+      "diabetesPrevalencePct": 6.8,
+      "hypertensionPrevalencePct": 11.9,
+      "ethnicMinorityPct": 46.2,
+      "notes": "Higher proportion of younger, diverse population; higher diabetic kidney risk among South Asian and Black populations."
+    },
+    {
+      "region": "West Midlands",
+      "ckdPrevalencePct": 4.3,
+      "diabetesPrevalencePct": 8.1,
+      "hypertensionPrevalencePct": 15.2,
+      "ethnicMinorityPct": 22.9,
+      "notes": "Covers Coventry, Birmingham, and Black Country; significant target population for early CKD education and prevention."
+    },
+    {
+      "region": "Yorkshire and the Humber",
+      "ckdPrevalencePct": 4.4,
+      "diabetesPrevalencePct": 7.9,
+      "hypertensionPrevalencePct": 15.0,
+      "ethnicMinorityPct": 14.5,
+      "notes": "Includes Leeds and Bradford; focus on cardiovascular comorbidity management."
+    },
+    {
+      "region": "North West",
+      "ckdPrevalencePct": 4.6,
+      "diabetesPrevalencePct": 8.0,
+      "hypertensionPrevalencePct": 15.8,
+      "ethnicMinorityPct": 13.8,
+      "notes": "Higher age-standardised rate of multimorbidity and social deprivation indices."
+    }
+  ]
+}

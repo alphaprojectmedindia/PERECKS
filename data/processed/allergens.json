@@ -1,0 +1,16 @@
+[
+  { "id": "celery", "name": "Celery", "description": "Includes celery stalks, leaves, seeds and celeriac in salads, soups and seasonings." },
+  { "id": "cereals_gluten", "name": "Cereals containing gluten", "description": "Wheat (such as spelt and Khorasan wheat/Kamut), rye, barley and oats." },
+  { "id": "crustaceans", "name": "Crustaceans", "description": "Crabs, lobster, prawns, scampi and shrimp." },
+  { "id": "eggs", "name": "Eggs", "description": "Eggs from all birds, and foods containing egg (mayonnaise, cakes, pasta)." },
+  { "id": "fish", "name": "Fish", "description": "All finfish and fish products including Worcestershire sauce, fish sauces and stocks." },
+  { "id": "lupin", "name": "Lupin", "description": "Lupin seeds and flour, often found in specialty breads, pastries and pasta." },
+  { "id": "milk", "name": "Milk", "description": "Cow's, goat's and sheep's milk, cheese, butter, yogurt, cream and milk powders." },
+  { "id": "molluscs", "name": "Molluscs", "description": "Mussels, oysters, squid, octopus, snails and whelks." },
+  { "id": "mustard", "name": "Mustard", "description": "Liquid mustard, mustard powder, mustard seeds, dressings, marinades and curries." },
+  { "id": "peanuts", "name": "Peanuts", "description": "Also known as groundnuts; distinct from tree nuts; found in peanut butter, oils and satay." },
+  { "id": "sesame", "name": "Sesame seeds", "description": "Sesame seeds, sesame oil, tahini paste, and toppings on burger buns and hummus." },
+  { "id": "soya", "name": "Soya (Soybeans)", "description": "Tofu, soy milk, soy sauce, edamame beans and textured vegetable protein." },
+  { "id": "sulphites", "name": "Sulphur dioxide and sulphites", "description": "Preservative used in dried fruits, wine, beer, cider and some meat products (>10mg/kg)." },
+  { "id": "tree_nuts", "name": "Tree nuts", "description": "Almonds, hazelnuts, walnuts, cashews, pecans, Brazil nuts, pistachios and macadamia nuts." }
+]

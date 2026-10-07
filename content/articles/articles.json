@@ -1,0 +1,250 @@
+[
+  {
+    "id": "art-01-stage3",
+    "slug": "understanding-ckd-stage-3",
+    "title": "Understanding stage 3 chronic kidney disease",
+    "summary": "Stage 3 CKD means your kidneys are working a little less well than normal. Most people feel completely well and can protect their kidneys with simple daily habits.",
+    "keyPoints": [
+      "Your kidneys filter waste and extra water from your blood.",
+      "Stage 3 is divided into 3a (mild-moderate) and 3b (moderate-severe).",
+      "Healthy habits and blood pressure control help keep your kidneys steady for many years."
+    ],
+    "body": [
+      "Finding out you have stage 3 kidney disease can feel worrying, but it is very common. Many people live full, active lives without their kidney function getting worse.",
+      "Your kidneys act like gentle filters. In stage 3, they filter slightly slower (an eGFR between 30 and 59).",
+      "Because early kidney changes rarely cause symptoms, regular check-ups with your GP surgery are the best way to keep track of your numbers."
+    ],
+    "whatYouCanDo": [
+      "Take your blood pressure regularly and aim for your target.",
+      "Drink water when you feel thirsty and cut down on salty foods.",
+      "Take all prescribed medicines regularly and ask your doctor before starting any new pills."
+    ],
+    "whenToGetHelp": [
+      "New swelling in your ankles, feet, or face.",
+      "Blood in your urine or feeling short of breath.",
+      "Severe sickness or diarrhoea where you cannot keep fluids down."
+    ],
+    "questionsForTeam": [
+      "What is my blood pressure target?",
+      "When is my next blood test and urine test?",
+      "Are my current medicines safe for my kidneys?"
+    ],
+    "quiz": [
+      {
+        "question": "What is the main job of your kidneys?",
+        "options": ["Filtering waste and extra fluid from blood", "Pumping blood around your body", "Digesting food"],
+        "correctIndex": 0,
+        "explanation": "Your kidneys act as filters that remove waste and balance fluid in your body."
+      },
+      {
+        "question": "Do most people with stage 3 CKD feel unwell?",
+        "options": ["Yes, they usually have severe pain", "No, most feel fine and have no symptoms", "Yes, they always need dialysis"],
+        "correctIndex": 1,
+        "explanation": "Early CKD rarely causes symptoms. That is why routine check-ups are so important."
+      }
+    ],
+    "glossaryTerms": ["eGFR", "Creatinine", "CKD"],
+    "readingAge": "9-11 years",
+    "sources": [
+      "NICE Guideline NG203: Chronic kidney disease (2021)",
+      "NHS Website: Chronic kidney disease overview (2026)"
+    ],
+    "clinicianReviewed": true,
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist)",
+    "reviewDate": "2026-08-10",
+    "nextReviewDate": "2027-08-10",
+    "bct": ["1.1", "4.1", "5.1"]
+  },
+  {
+    "id": "art-02-bp",
+    "slug": "high-blood-pressure-and-kidneys",
+    "title": "High blood pressure and your kidneys",
+    "summary": "Keeping your blood pressure in your personal target range is the single most powerful way to protect your kidneys.",
+    "keyPoints": [
+      "High blood pressure puts extra force on the tiny filters inside your kidneys.",
+      "Home blood pressure checks give a calm, reliable picture.",
+      "Eating less salt and taking prescribed medicines protects both your heart and kidneys."
+    ],
+    "body": [
+      "Your kidneys contain millions of tiny filtering units called nephrons. When blood pressure is high, it stretches and strains these delicate vessels.",
+      "Managing your blood pressure prevents damage, keeping your filters strong.",
+      "Your GP or kidney nurse will agree a target blood pressure with you (often under 140/90 mmHg, or under 130/80 mmHg if you have protein in your urine)."
+    ],
+    "whatYouCanDo": [
+      "Measure your blood pressure at home while sitting quietly.",
+      "Aim for less than 6g of salt (one level teaspoon) a day.",
+      "Take your blood pressure tablets at the same time each day."
+    ],
+    "whenToGetHelp": [
+      "A home reading of 180 systolic or 120 diastolic or higher.",
+      "Severe headache, chest pain, or changes in your vision."
+    ],
+    "questionsForTeam": [
+      "What is my personal blood pressure target?",
+      "Should I take my readings morning, evening, or both?"
+    ],
+    "quiz": [
+      {
+        "question": "Why does blood pressure matter for kidney health?",
+        "options": ["High pressure strains the tiny kidney filters", "It changes blood colour", "It has no effect on kidneys"],
+        "correctIndex": 0,
+        "explanation": "Lowering high blood pressure takes the strain off delicate kidney blood vessels."
+      }
+    ],
+    "glossaryTerms": ["Systolic", "Diastolic", "Hypertension"],
+    "readingAge": "9-11 years",
+    "sources": [
+      "NICE Guideline NG136: Hypertension in adults (2023)",
+      "Blood Pressure UK Guidance"
+    ],
+    "clinicianReviewed": true,
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist)",
+    "reviewDate": "2026-08-10",
+    "nextReviewDate": "2027-08-10",
+    "bct": ["2.2", "2.3", "4.1"]
+  },
+  {
+    "id": "art-03-painkillers",
+    "slug": "painkillers-and-medicines",
+    "title": "Painkillers (NSAIDs) and your kidneys",
+    "summary": "Some common over-the-counter painkillers, such as ibuprofen and naproxen, can reduce blood flow to your kidneys. Learn which options are safer.",
+    "keyPoints": [
+      "Anti-inflammatory painkillers (NSAIDs) can reduce blood flow to kidney filters.",
+      "Always check with a pharmacist or GP before taking anti-inflammatories.",
+      "Paracetamol is usually the safer choice for mild to moderate pain."
+    ],
+    "body": [
+      "Non-steroidal anti-inflammatory drugs (NSAIDs) include ibuprofen, naproxen, and diclofenac. They are commonly sold for headaches, joint aches, or back pain.",
+      "NSAIDs work by narrowing small blood vessels that bring blood into your kidneys. In kidney disease, this can cause a sudden drop in kidney function.",
+      "Rub-on pain relief gels and certain cold medicines also contain NSAIDs, so always check the ingredients label."
+    ],
+    "whatYouCanDo": [
+      "Always tell your pharmacist that you have kidney disease before buying pain relief.",
+      "Choose paracetamol for general pain unless advised otherwise by your doctor.",
+      "Keep a list of all your medications, including vitamins and herbal supplements."
+    ],
+    "whenToGetHelp": [
+      "You took an NSAID and noticed your urine output stopped or dropped suddenly.",
+      "You feel very dizzy, sick, or short of breath."
+    ],
+    "questionsForTeam": [
+      "What is the safest painkiller for my joint or back pain?",
+      "Are rub-on pain relief gels safe for me to use?"
+    ],
+    "quiz": [
+      {
+        "question": "Which of these is generally the safer painkiller for kidneys?",
+        "options": ["Paracetamol", "Ibuprofen", "High-dose Aspirin"],
+        "correctIndex": 0,
+        "explanation": "Paracetamol does not reduce kidney blood flow and is usually safer when used as directed."
+      }
+    ],
+    "glossaryTerms": ["NSAID", "Acute Kidney Injury"],
+    "readingAge": "9-11 years",
+    "sources": [
+      "NHS Website: NSAIDs (2026)",
+      "UK Kidney Association Patient Information"
+    ],
+    "clinicianReviewed": true,
+    "reviewedBy": "E. Davies (Lead Renal Pharmacist)",
+    "reviewDate": "2026-08-15",
+    "nextReviewDate": "2027-08-15",
+    "bct": ["5.1", "7.1"]
+  },
+  {
+    "id": "art-04-sick-day",
+    "slug": "sick-day-rules",
+    "title": "Sick-day rules for kidney health",
+    "summary": "When you have vomiting, diarrhoea, or fever, certain medicines may need a short pause to protect your kidneys from dehydration.",
+    "keyPoints": [
+      "Dehydration makes your blood pressure drop and strains the kidneys.",
+      "Blood pressure tablets, water pills, and some diabetes medicines may need a temporary pause during illness.",
+      "Always contact your GP surgery, pharmacy, or 111 to confirm your personal sick-day plan."
+    ],
+    "body": [
+      "When you are unwell with an illness causing sickness, diarrhoea, or high temperature, you lose water quickly.",
+      "Certain medicines that are normally very protective can become too strong when you are dehydrated. These include ACE inhibitors (like Ramipril), ARBs (like Losartan), diuretics (water tablets), SGLT2 inhibitors, and Metformin.",
+      "Pausing these medicines for a day or two while unwell prevents your kidneys from becoming overworked."
+    ],
+    "whatYouCanDo": [
+      "Sip water or clear fluids frequently in small amounts.",
+      "Check your personal sick-day instructions from your doctor or renal nurse.",
+      "Restart your medicines once you are eating and drinking normally for 24 to 48 hours."
+    ],
+    "whenToGetHelp": [
+      "You cannot keep any fluids down for more than 24 hours.",
+      "You feel very faint, confused, or have not passed urine all day."
+    ],
+    "questionsForTeam": [
+      "Which of my regular tablets should I pause if I have severe sickness or diarrhoea?",
+      "When should I restart them after feeling better?"
+    ],
+    "quiz": [
+      {
+        "question": "Why might you pause certain medicines when you have diarrhoea and sickness?",
+        "options": ["To protect kidneys from dehydration and low pressure", "Because they expire", "To make you sleepy"],
+        "correctIndex": 0,
+        "explanation": "Dehydration can cause medicines to lower kidney blood flow too much."
+      }
+    ],
+    "glossaryTerms": ["Dehydration", "ACE inhibitor", "Diuretic"],
+    "readingAge": "9-11 years",
+    "sources": [
+      "NHS England Sick Day Guidance",
+      "Think Kidneys NHS Campaign"
+    ],
+    "clinicianReviewed": true,
+    "reviewedBy": "Dr. R. Sharma (Consultant Nephrologist)",
+    "reviewDate": "2026-08-15",
+    "nextReviewDate": "2027-08-15",
+    "bct": ["1.2", "4.1"]
+  },
+  {
+    "id": "art-05-eating",
+    "slug": "eating-for-kidney-health",
+    "title": "Eating well for your kidneys",
+    "summary": "For most people with early kidney disease, eating a balanced diet with plenty of vegetables and less salt is the best approach. There is no one-size-fits-all kidney diet.",
+    "keyPoints": [
+      "Follow the NHS Eatwell Guide: plenty of vegetables, fruits, and whole grains.",
+      "Cutting down on processed foods lowers hidden salt.",
+      "Do not cut out healthy foods like fruit or vegetables unless specifically instructed by a renal dietitian."
+    ],
+    "body": [
+      "In stages 1 to 3 CKD, strict restrictions on potassium or phosphate are usually NOT needed unless a blood test shows high levels.",
+      "Eating whole foods, cooking with herbs and spices instead of salt, and enjoying balanced meals protects your blood vessels and heart.",
+      "If your care team ever finds specific nutrient imbalances, a specialist renal dietitian will work with you on a personalised plan."
+    ],
+    "whatYouCanDo": [
+      "Flavour home-cooked meals with lemon juice, black pepper, garlic, or fresh herbs.",
+      "Check food labels for salt and choose green or amber items.",
+      "Speak to your renal dietitian before making extreme changes to your eating habits."
+    ],
+    "whenToGetHelp": [
+      "Sudden muscle weakness or tingling (can be a sign of high potassium).",
+      "Unexplained rapid weight loss or loss of appetite."
+    ],
+    "questionsForTeam": [
+      "Do I need any special dietary changes for my stage of kidney disease?",
+      "Can I be referred to a renal dietitian for personal advice?"
+    ],
+    "quiz": [
+      {
+        "question": "What is the best general dietary advice for early CKD?",
+        "options": ["Balanced eating with less salt and lots of vegetables", "Cutting out all fruits", "Drinking only milk"],
+        "correctIndex": 0,
+        "explanation": "A balanced, lower-salt diet protects blood vessels without unnecessary restrictions."
+      }
+    ],
+    "glossaryTerms": ["Eatwell Guide", "Dietitian", "Potassium"],
+    "readingAge": "9-11 years",
+    "sources": [
+      "NHS Eatwell Guide (2025)",
+      "British Dietetic Association (BDA) Renal Nutrition Specialist Group"
+    ],
+    "clinicianReviewed": true,
+    "reviewedBy": "S. Patel (Specialist Renal Dietitian)",
+    "reviewDate": "2026-08-20",
+    "nextReviewDate": "2027-08-20",
+    "bct": ["1.1", "4.1"]
+  }
+]

@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "title": "UK Chronic Kidney Disease Treatment & Resource Unit Costing Dataset",
+    "version": "2026.1",
+    "lastUpdated": "2026-10-02",
+    "currency": "GBP (£)",
+    "geography": "United Kingdom (NHS England baseline)",
+    "sources": [
+      {
+        "name": "NHS National Cost Collection (NCC) for the NHS",
+        "publisher": "NHS England",
+        "url": "https://www.england.nhs.uk/costing-in-the-nhs/national-cost-collection/",
+        "licence": "Open Government Licence v3.0",
+        "relevance": "Haemodialysis, peritoneal dialysis, renal outpatient tariffs and inpatient admissions"
+      },
+      {
+        "name": "Unit Costs of Health and Social Care",
+        "publisher": "Personal Social Services Research Unit (PSSRU) / Kent & LSE",
+        "authors": "Jones KC, Burns A",
+        "year": 2024,
+        "url": "https://www.pssru.ac.uk/unitcostsreport/",
+        "licence": "Open Access / Academic citation",
+        "relevance": "GP appointments, practice nurse, community dietitian, mental health talking therapies"
+      },
+      {
+        "name": "NICE Guideline NG203: Chronic kidney disease - Resource Impact Report",
+        "publisher": "National Institute for Health and Care Excellence (NICE)",
+        "year": 2021,
+        "url": "https://www.nice.org.uk/guidance/ng203/resources",
+        "licence": "UK Open Government",
+        "relevance": "Economic impact of early detection, SGLT2 inhibitors and progression delay"
+      },
+      {
+        "name": "Kidney Research UK - Ending the Kidney Care Crisis",
+        "publisher": "Kidney Research UK Health Economics Report",
+        "year": 2023,
+        "url": "https://www.kidneyresearchuk.org/about-us/ending-the-kidney-care-crisis/",
+        "licence": "Published research",
+        "relevance": "Societal and direct NHS burden estimates across CKD stages 1-5"
+      }
+    ]
+  },
+  "annualDirectCostsByStage": [
+    {
+      "stage": "CKD Stage 1-2",
+      "description": "Mild kidney damage with normal/high eGFR (>=60 ml/min) and persistent proteinuria. Management delivered in primary care.",
+      "annualCostRangeGbp": {
+        "low": 320,
+        "mid": 410,
+        "high": 520
+      },
+      "typicalComponents": [
+        "Annual GP review and blood pressure check",
+        "Annual serum creatinine/eGFR and urine ACR tests",
+        "Cardiovascular risk optimization (statin, basic antihypertensives)"
+      ],
+      "economicBenefitOfPrevention": "High: Effective BP and lifestyle control at Stage 1-2 prevents progression to Stage 4-5, saving up to £35,000+ per patient annually in avoided renal replacement therapy."
+    },
+    {
+      "stage": "CKD Stage 3a",
+      "description": "Mild to moderate loss of kidney function (eGFR 45-59 ml/min). Primary care management with structured monitoring.",
+      "annualCostRangeGbp": {
+        "low": 650,
+        "mid": 820,
+        "high": 1100
+      },
+      "typicalComponents": [
+        "6-monthly GP and practice nurse reviews",
+        "Twice-yearly renal blood panel and urine ACR",
+        "Cardio-renal protective pharmacotherapy (ACEi/ARB, SGLT2 inhibitor e.g., Dapagliflozin/Empagliflozin)",
+        "Annual lifestyle and diet guidance check"
+      ],
+      "economicBenefitOfPrevention": "Significant: Progression delay at stage 3a preserves years of patient productivity and avoids secondary care referral escalation."
+    },
+    {
+      "stage": "CKD Stage 3b",
+      "description": "Moderate to severe loss of kidney function (eGFR 30-44 ml/min). Enhanced monitoring, potential joint renal clinic review.",
+      "annualCostRangeGbp": {
+        "low": 1450,
+        "mid": 1850,
+        "high": 2400
+      },
+      "typicalComponents": [
+        "3-4 primary care reviews per year",
+        "Specialist nephrology outpatient consultation (1st/follow-up)",
+        "Biochemical monitoring of bone mineral markers (calcium, phosphate, PTH) and bicarbonate",
+        "Renal dietitian referral",
+        "Cardiorenal medications"
+      ],
+      "economicBenefitOfPrevention": "Crucial: Preventing transition to Stage 4/5 averts imminent pre-dialysis vascular surgery and intensive multidisciplinary care."
+    },
+    {
+      "stage": "CKD Stage 4",
+      "description": "Severe loss of kidney function (eGFR 15-29 ml/min). Multi-disciplinary pre-dialysis preparation and management.",
+      "annualCostRangeGbp": {
+        "low": 4500,
+        "mid": 6200,
+        "high": 8400
+      },
+      "typicalComponents": [
+        "Frequent nephrology outpatient attendances (every 2-3 months)",
+        "Anaemia management (Erythropoiesis-stimulating agents / ESAs and IV iron)",
+        "Specialist pre-dialysis education and shared decision making",
+        "Vascular access creation (arteriovenous fistula) or PD catheter insertion"
+      ],
+      "economicBenefitOfPrevention": "High cost inflection point: Care costs quadruple compared to Stage 3b."
+    },
+    {
+      "stage": "CKD Stage 5 (In-Centre Haemodialysis)",
+      "description": "Kidney failure requiring renal replacement therapy (3 sessions/week in hospital or satellite dialysis unit).",
+      "annualCostRangeGbp": {
+        "low": 34000,
+        "mid": 38500,
+        "high": 44000
+      },
+      "typicalComponents": [
+        "156 haemodialysis sessions per year (~£155-£185/session NHS tariff)",
+        "Patient transport services",
+        "Specialist nephrology and nursing staffing",
+        "High-dose ESAs, phosphate binders, calcimimetics",
+        "Vascular access maintenance and hospital admissions for complications"
+      ],
+      "economicBenefitOfPrevention": "Maximum: Largest clinical and economic burden on the NHS."
+    },
+    {
+      "stage": "CKD Stage 5 (Peritoneal Dialysis)",
+      "description": "Home-based dialysis (CAPD or APD) with monthly specialist clinic reviews.",
+      "annualCostRangeGbp": {
+        "low": 22000,
+        "mid": 25500,
+        "high": 29000
+      },
+      "typicalComponents": [
+        "Peritoneal dialysis fluids and automated cycler equipment delivery",
+        "Monthly home dialysis nurse reviews and outpatient clinics",
+        "Catheter care and peritonitis treatment episodes"
+      ],
+      "economicBenefitOfPrevention": "Substantial: Saves ~£13,000/year compared to hospital haemodialysis, but still orders of magnitude higher than early stage prevention."
+    },
+    {
+      "stage": "Kidney Transplant (Year 1 - Surgery & Induction)",
+      "description": "Kidney transplantation procedure, inpatient stay, and initial high-intensity immunosuppression.",
+      "annualCostRangeGbp": {
+        "low": 29000,
+        "mid": 33500,
+        "high": 39000
+      },
+      "typicalComponents": [
+        "Transplant surgical procedure and organ retrieval",
+        "Inpatient surgical ward and ICU stay (7-14 days)",
+        "Induction immunosuppression (e.g. Basiliximab/ATG) and prophylactic anti-infectives",
+        "Bi-weekly outpatient monitoring during the first 3 months"
+      ],
+      "economicBenefitOfPrevention": "Restores quality of life and is cost-saving compared to dialysis within 2-3 years."
+    },
+    {
+      "stage": "Kidney Transplant (Maintenance - Year 2+)",
+      "description": "Long-term functioning allograft with stable maintenance immunosuppression.",
+      "annualCostRangeGbp": {
+        "low": 58000,
+        "mid": 6800,
+        "high": 8200
+      },
+      "typicalComponents": [
+        "Maintenance immunosuppression (Tacrolimus, Mycophenolate Mofetil, Prednisolone)",
+        "3-monthly transplant clinic reviews and therapeutic drug monitoring (TDM)",
+        "Routine surveillance blood panels and skin cancer screening"
+      ],
+      "economicBenefitOfPrevention": "Most cost-effective long-term replacement modality (£6,800/yr vs £38,500/yr for HD)."
+    }
+  ],
+  "resourceUnitCostsGbp": [
+    {
+      "resource": "GP Consultation (standard 9.2 minutes)",
+      "unitCostGbp": 44.00,
+      "source": "PSSRU 2024 Unit Costs of Health and Social Care"
+    },
+    {
+      "resource": "Practice Nurse Consultation (15 minutes)",
+      "unitCostGbp": 16.50,
+      "source": "PSSRU 2024"
+    },
+    {
+      "resource": "Nephrology Consultant Outpatient (First Attendance)",
+      "unitCostGbp": 198.00,
+      "source": "NHS National Cost Collection / National Tariff"
+    },
+    {
+      "resource": "Nephrology Consultant Outpatient (Follow-up)",
+      "unitCostGbp": 136.00,
+      "source": "NHS National Cost Collection"
+    },
+    {
+      "resource": "Renal Specialist Dietitian Consultation (45 minutes)",
+      "unitCostGbp": 74.00,
+      "source": "PSSRU 2024"
+    },
+    {
+      "resource": "NHS Talking Therapies (IAPT) treatment course (avg 6 sessions)",
+      "unitCostGbp": 720.00,
+      "source": "NHS England Mental Health Economics"
+    },
+    {
+      "resource": "Serum Creatinine / eGFR & Electrolytes Lab Panel",
+      "unitCostGbp": 18.50,
+      "source": "NHS Pathology Tariff Standard"
+    },
+    {
+      "resource": "Urine Albumin-to-Creatinine Ratio (ACR) Test",
+      "unitCostGbp": 11.20,
+      "source": "NHS Pathology Tariff Standard"
+    },
+    {
+      "resource": "Validated Home Blood Pressure Monitor (NHS prescribed)",
+      "unitCostGbp": 28.50,
+      "source": "NHS Supply Chain / Drug Tariff Part IX"
+    },
+    {
+      "resource": "SGLT2 Inhibitor (e.g. Dapagliflozin 10mg, 28-day supply)",
+      "unitCostGbp": 36.59,
+      "source": "NHS Electronic Drug Tariff (dm+d)"
+    }
+  ]
+}

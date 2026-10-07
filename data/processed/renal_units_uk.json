@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ukka-uhcw-coventry",
+    "name": "University Hospitals Coventry and Warwickshire NHS Trust - Renal Unit",
+    "hospital": "University Hospital Coventry",
+    "address": "Clifford Bridge Road, Coventry, West Midlands, CV2 2DX",
+    "region": "West Midlands",
+    "phone": "024 7696 4000",
+    "postcode": "CV2 2DX",
+    "services": ["Outpatient Nephrology", "Haemodialysis", "Peritoneal Dialysis", "Transplant Follow-up", "Renal Dietetics"],
+    "latitude": 52.4172,
+    "longitude": -1.4398
+  },
+  {
+    "id": "ukka-queen-elizabeth-bham",
+    "name": "Queen Elizabeth Hospital Birmingham - Renal Directorate",
+    "hospital": "Queen Elizabeth Hospital",
+    "address": "Mindelsohn Way, Edgbaston, Birmingham, B15 2GW",
+    "region": "West Midlands",
+    "phone": "0121 627 2000",
+    "postcode": "B15 2GW",
+    "services": ["Nephrology Inpatient", "Major Transplant Centre", "Home Dialysis", "Specialist CKD Clinics"],
+    "latitude": 52.4516,
+    "longitude": -1.9392
+  },
+  {
+    "id": "ukka-leeds-st-james",
+    "name": "St James's University Hospital - Leeds Renal Unit",
+    "hospital": "St James's University Hospital",
+    "address": "Beckett Street, Leeds, West Yorkshire, LS9 7TF",
+    "region": "Yorkshire and the Humber",
+    "phone": "0113 243 3144",
+    "postcode": "LS9 7TF",
+    "services": ["Comprehensive Renal Care", "Kidney & Pancreas Transplantation", "CKD Stage 3-5 Clinics"],
+    "latitude": 53.8073,
+    "longitude": -1.5197
+  },
+  {
+    "id": "ukka-royal-free-london",
+    "name": "Royal Free Hospital - Kidney Care Centre",
+    "hospital": "Royal Free Hospital",
+    "address": "Pond Street, Hampstead, London, NW3 2QG",
+    "region": "London (North Central)",
+    "phone": "020 7794 0500",
+    "postcode": "NW3 2QG",
+    "services": ["Specialist Nephrology", "Haemodialysis", "Renal Vasculitis Clinic", "Cardiorenal Service"],
+    "latitude": 51.5532,
+    "longitude": -0.1654
+  },
+  {
+    "id": "ukka-guys-st-thomas-london",
+    "name": "Guy's and St Thomas' NHS Foundation Trust - Kidney Centre",
+    "hospital": "Guy's Hospital",
+    "address": "Great Maze Pond, London, SE1 9RT",
+    "region": "London (South East)",
+    "phone": "020 7188 7188",
+    "postcode": "SE1 9RT",
+    "services": ["Renal Transplant Centre", "Lupus & Nephritis Clinic", "Early CKD Multi-disciplinary Care", "Haemodialysis"],
+    "latitude": 51.5042,
+    "longitude": -0.0883
+  },
+  {
+    "id": "ukka-manchester-mri",
+    "name": "Manchester Royal Infirmary - Manchester Renal Unit",
+    "hospital": "Manchester Royal Infirmary",
+    "address": "Oxford Road, Manchester, M13 9WL",
+    "region": "North West",
+    "phone": "0161 276 1234",
+    "postcode": "M13 9WL",
+    "services": ["Tertiary Nephrology", "Living Kidney Donor Programme", "Satellite Dialysis Support"],
+    "latitude": 53.4616,
+    "longitude": -2.2263
+  }
+]
